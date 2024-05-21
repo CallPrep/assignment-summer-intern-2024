@@ -9,13 +9,13 @@ Develop a web application that performs semantic search on case study documents 
 **Here's what you'll build:**
 
 1. **APIs:**
-    - `POST: /upload`: This API allows uploading new case study documents to the system. The file will be uploaded as form-data
+    - `POST: /upload`: This API allows uploading new case study documents to the system. The file will be uploaded as form-data in PDF format.
     - `GET: /docs?q=<query>`: This API takes a search query and returns a list of relevant case study **document names**, not the entire documents.
 
 2. **Data:**
     - Sample case studies are provided in the `/samples` folder, focusing on various industries, geographies, and use cases (e.g., healthcare CRM, training remote sales teams).
     - You can assume additional case studies will be uploaded for testing.
-
+    - It is available in HTML format for readibilty, decide how you want to clean it.
 **Optional Enhancements:**
 
 - **Large Language Model (LLM) Integration:** Explore ways to leverage LLMs to improve search accuracy. We will like to see your creativity of how can keep the use of LLMs to minimum while improving the accuracy. Their are various platoforms which provide apis for open souce LLM models free to a great extent. You dont have to train your models but if you can finetune any of embeddings or LLM, that will be a huge plus. You can focus on optimizing queries for the following aspects:
