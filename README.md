@@ -30,14 +30,14 @@ Develop a web application that performs semantic search on case study documents 
 - **Accuracy:** Ability of the system to return relevant case study names based on the search query's intent and meaning. This will be tested automatically using a script.
 - **Bonus:** Dockerizing the application for easy deployment (not mandatory).
 
-**Getting Started:**
+**Hints To Get Started Started:**
 
 
-1. **Explore Semantic Search Libraries:**
+1. **Explore Semantic Search Libraries**
 
-2. **Document Embedding:** 
+2. **Document Embedding** 
 
-3. **Search Implementation:** 
+3. **Search Implementation** 
 
 6. **Database Selection:** Choose a database of your choice (e.g. PineCone, ElasrticSearch etc.) to store the document embeddings and potentially document metadata (optional). How and which db you choose will also be an interesting thing. 
 
